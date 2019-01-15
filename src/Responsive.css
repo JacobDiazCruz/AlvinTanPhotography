@@ -1,0 +1,82 @@
+@media screen and (max-width: 900px) {
+	html, body {
+		overflow: visible;
+	}
+
+	.home {
+		overflow-y:hidden;
+	}
+
+	#main-logo {
+		padding-left: 1em;
+		padding-top: 1em;
+	}
+
+	.column {
+		width: 100%;
+		margin-left: -40px;
+		margin-top: 0px;
+	}
+
+	.column-one {
+		margin-top: 100px;
+		margin-left: 40px;
+	}
+
+	.about-p-box {
+		margin-left: 50px;
+		width: 300px;
+	}
+
+	#about-pic {
+		width: 40%;
+	}
+
+	/*navbar*/
+	.toggle-btn {
+		margin-top: -5px;
+	}
+
+	a.nav-item {
+		font-size: 50px;
+	}
+
+	/*award*/
+	#best-photo {
+		padding-top: 100px;
+		width: 80%;
+	}
+
+	.award > h1 {
+		font-size: 32px;
+	}
+
+	/*works*/
+	.gallery {
+	  width: 100%;
+	  margin-top: -20px;
+	  margin-left: 1%;
+	}
+
+	.mobile-gallery {
+	  margin-top: 15vh;
+	  z-index: 20;
+	  position: absolute;
+	  margin-left: 25%;
+	}
+
+	.mobile-gallery > h2{
+	  color: white;
+	  font-family: 'nova reg', cursive;
+	  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+	  -webkit-text-stroke-width: 1px;
+	  -webkit-text-stroke-color: white;
+	  font-size: 40px;
+	  font-weight: normal;
+	}
+
+	.streets, .sports, .travel, .urban {
+		visibility: hidden;
+	}
+	/*works end*/
+}

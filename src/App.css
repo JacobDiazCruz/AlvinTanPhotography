@@ -1,0 +1,369 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('gray-bg.png');
+  opacity: 0.95;
+  background-size: 5%;
+  line-height: 1;
+  overflow: hidden;
+}
+
+#main-logo {
+  background: transparent;
+  font-family: 'Marck Script', cursive;
+  font-size: 1.4em;
+  color: #f2efef;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 7;
+  position: fixed;
+  transform: skewY(-20deg);
+  padding-left: 5em;
+  padding-top: 2em;
+}
+
+.home {
+  background-image: url('gray-bg.png');
+  background-size: 5%;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: -1;
+  margin-top: 29px;
+}
+
+.home > h1 {
+  margin-top: 40vh;
+  font-family: 'Archivo Black', sans-serif;
+  position: absolute;
+  z-index: -1;
+  color: #0f0f0f;
+  font-size: 190px;
+}
+
+#home-pic {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*center*/
+.center {
+  padding-top: 10vh;
+}
+
+h1#big-logo {
+  text-align: center;
+  margin: 20px auto;
+  padding-top: 50px;
+  color: #fff;
+  font-size: 2em;
+  font-weight: normal;
+  font-family: 'gotham';
+  letter-spacing: 5px;
+}
+
+
+p#small-logo {
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  font-family: 'nova reg';
+  letter-spacing: 7px;
+}
+/*center close*/
+
+.toggle-btn {
+  position: absolute;
+  margin: 1.4em;
+  padding: 1em;
+  width: 40px;
+  height: 12px;
+  right: 0;
+  z-index: 6;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.close-btn {
+  position: absolute;
+  margin: 1.4em;
+  padding: 1em;
+  width: 40px;
+  height: 12px;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/*navbar start*/
+/*open nav*/
+span.one {
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background: #fff;
+}
+
+span.two {
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  margin-top: 12px;
+}
+
+/*close nav*/
+span.three {
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+span.four {
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background: #fff;
+  transform: rotate(-45deg);
+}
+
+.menu {
+  z-index: 10;
+  position: absolute;
+  background: #101010;
+  height: 100vh;
+  margin-top: -25px;
+  width: 100%;
+  left: -100%;
+}
+
+.data {
+  padding-right: 2em;
+  padding-top: 20vh;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: #fff;
+  padding-bottom: 0.6em;
+  font-size: 42px;
+}
+
+a.nav-item {
+  text-decoration: none;
+  font-family: 'nova reg', cursive;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size: 60px;
+  font-weight: normal;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  letter-spacing: 10px;
+}
+/*navbar end*/
+
+/*overlay start*/
+.overlay {
+  background-image: url('gray-bg.png');
+  background-size: 5%;
+  margin-top: -28px;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 11;
+  text-align: center;
+  cursor: crosshair;
+}
+
+p.alvintures {
+  font-family: 'Marck Script', cursive;
+  font-size: 3em;
+  z-index: 10;
+  color: white;
+  margin-top: 50vh;
+}
+
+/*overlay end*/
+
+
+/*overlay 2 start*/
+.overlay-2 {
+  z-index: 2;
+  position: absolute;
+  background-image: url('gray-bg.png');
+  background-size: 5%;
+  width: 100%;
+  height: 100vh;
+  margin-top: -28px;
+  text-align: center;
+}
+
+.overlay-2 > h2 {
+  font-size: 42px;
+  font-family: 'Work Sans', sans-serif;
+  color: rgba(61,61,61,.2);
+  font-weight: bold;
+}
+/*overlay 2 end*/
+
+/*images start*/
+
+
+/*about start*/
+.about {
+  background-image: url('gray-bg.png');
+  background-size: 5%;
+  margin-left: 100%;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  position: absolute;
+}
+
+.column {
+  width: 20%;
+  float: left;
+  margin-top: 200px;
+  margin-left: 0px;
+}
+
+.about-p-box {
+  width: 380px;
+  border: none;
+  margin-left: 100px;
+}
+
+.about-p {
+  color: #fff;
+  font-family: 'nova reg', cursive;
+  font-size: 0.8em;
+}
+
+.about-pic {
+  width: 100%;
+}
+/*about end*/
+
+/*award start*/
+.award {
+  background-image: url('gray-bg.png');
+  background-size: 5%;
+  width: 100%;
+  margin-left: 100%;
+  height: 100vh;
+  z-index: 2;
+  position: absolute;
+}
+
+.award-pic {
+  background-image: url('award.jpeg');
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+
+#best-photo {
+  width: 50%;
+  display: block;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.best-p-box {
+  color: white;
+  text-align: center;
+  font-family: 'nova reg';
+  font-size: 14px;
+}
+
+.award > h1 {
+  margin-top: 40vh;
+  font-family: 'Archivo Black', sans-serif;
+  position: absolute;
+  z-index: -1;
+  color: #0f0f0f;
+  font-size: 120px;
+}
+
+/*works start*/
+.works {
+  background-image: url('gray-bg.png');
+  background-size: 5%;
+  width: 100%;
+  margin-left: 100%;
+  height: 100vh;
+  z-index: 4;
+  position: absolute;
+}
+
+.gallery {
+  width: 100%;
+  margin-top: -20px;
+  float: left;
+}
+
+.gallery > img {
+  opacity: 0.7;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.gallery > img:hover {
+  opacity: 1;
+}
+
+/*works end*/
+
+/*logos*/
+#fb-logo {
+  padding-right: 20px;
+}
+
+a {
+  color: white !important;
+}
+
+/*fonts*/
+@font-face {
+  src: url('fonts/Butler_Ultra_Light.otf');
+  font-family: 'butler';
+}
+
+@font-face {
+  src: url('fonts/Butler_Regular.otf');
+  font-family: 'butler reg';
+}
+
+@font-face {
+  src: url('fonts/Butler_Medium.otf');
+  font-family: 'butler med';
+}
+
+@font-face {
+  src: url('fonts/proxima_nova.ttf');
+  font-family: 'nova reg';
+}
+
+@font-face {
+  src: url('fonts/Brandon-Grotesque-Font/brandonfam/Brandon_med.otf');
+  font-family: 'brandon med';
+}
+
+@font-face {
+  src: url('fonts/gotham.otf');
+  font-family: 'gotham';
+}
