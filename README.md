@@ -1,7 +1,7 @@
 
-#Photographer Portfolio
+##Photographer Portfolio
 
-## Tools Used:
+### Tools Used:
 ReactJS//GSAP
 
 
